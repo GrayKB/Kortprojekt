@@ -1,0 +1,123 @@
+@font-face {
+  font-family: Alien;
+  src: url("./Alien-Encounters-Regular.ttf");
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  color: white;
+  background-color: black;
+  font-size: 120px;
+  text-shadow: 10px 10px blueviolet;
+}
+
+.navigationBar {
+  display: flex;
+
+  justify-content: space-evenly;
+
+  text-shadow: 1px 1px purple;
+}
+
+.pointSystem {
+  background-image: url("headerimg.jpg");
+}
+
+.pointsKing {
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+
+  color: white;
+  text-shadow: 3px 3px purple;
+}
+
+.highscoreKing {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px purple;
+}
+
+.timesPlayedKing {
+  display: flex;
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  text-shadow: 1px 1px purple;
+}
+
+.king {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  text-shadow: 1px 1px purple;
+  font-size: 15px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  height: 100%;
+  width: 100%;
+
+  background-color: black;
+}
+
+body {
+  font-family: "Alien", "Times New Roman", Times, serif;
+}
+
+footer {
+  font-size: 12px;
+  background-color: black;
+  color: silver;
+  text-shadow: 1px 1px purple;
+}
+.h2Footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.textFooter {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+.copyrightFooter {
+  display: flex;
+  justify-content: center;
+}
+
+.games {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: silver;
+  text-shadow: 1px 1px purple;
+  background-image: url("headerimg.jpg");
+}
+
+.information {
+  background-image: url("headerimg.jpg");
+}
+.informationHeader {
+  display: flex;
+  justify-content: center;
+  color: white;
+  text-shadow: 1px 1px purple;
+  font-size: 20px;
+}
+
+.informationText {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  color: silver;
+  font-size: 15px;
+  text-shadow: 1px 1px purple;
+  margin-left: 100px;
+  margin-right: 100px;
+}
